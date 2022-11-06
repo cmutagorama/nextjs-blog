@@ -18,11 +18,6 @@ export default function Home({ posts }: { posts: any }) {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">the future of content</a>
         </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.tsx</code>
-				</p>
 				
 				<BlogList allBlogs={posts.posts} />
       </main>
